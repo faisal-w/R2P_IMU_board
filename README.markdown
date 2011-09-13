@@ -28,6 +28,6 @@ The four status LEDs are placed under RJ45 plug light pipes entrance, so it is o
 
 The left connector has the option to connect to the CAN bus or to expose the TTL UART interface by a solder jumper placed on the bottom of the board.
 
-# Firmware
+### Firmware
 
 ...under development
