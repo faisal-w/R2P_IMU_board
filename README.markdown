@@ -2,7 +2,7 @@ IMU MODULE
 ---------------------
 
 This is an IMU module featuring a MEMS gyro, a MEMS accelerometer and an optional magnetometer sensor.
-The IMU module is supposed to work together with other smart modules, publishing data on CAN bus using a publish/subscriber QoS enabled middleware (in development).
+The IMU module is supposed to work together with other smart modules, publishing data on CAN bus using a publish/subscriber QoS enabled middleware (under development).
 The overall system should provide the devices and functionalities commonly used in robot prototyping, speeding up the development process and reducing the engeenering time, leaving more time to research activities. The system is also supposed to enable students and amateurs to easily build robots without advanced hardware knowledge.
 
 ### Hardware
@@ -30,7 +30,6 @@ A double connector footprint (RJ45 + pin header) is provided, so the user can ch
 
 The four status LEDs are placed under RJ45 plug light pipes entrance, so it is only needed to solder the preferred connector without any other layout changes.
 
-The left connector has the option to connect to the CAN bus or to expose the TTL UART interface by a solder jumper placed on the bottom of the board.
 
 ### Firmware
 
