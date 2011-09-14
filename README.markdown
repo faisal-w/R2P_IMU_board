@@ -1,6 +1,3 @@
-openrobots.com - A fast prototyping framework for low-cost robotics
-====================
-
 IMU MODULE
 ---------------------
 
