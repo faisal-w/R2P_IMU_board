@@ -10,9 +10,9 @@ The overall system should provide the devices and functionalities commonly used 
 The IMU module is run by a STM32 ARM Cortex-M3 microcontroller, that takes care of reading sensors data, filtering them to extract accurate pose and attitude measurements, and then publishing the needed data on a CAN bus network and, optionally, on a TTL UART interface.
 
 Inertial data in gathered from three sensors:
-- a ST LIS3DH 16-bit digital accelerometer
-- a ST L3G4200D 16-bit digital gyroscope
-- an optional LSM303DLHC 16 bit accelerometer and magnetometer
+* a ST LIS3DH 16-bit digital accelerometer
+* a ST L3G4200D 16-bit digital gyroscope
+* an optional LSM303DLHC 16 bit accelerometer and magnetometer
 
 The magnetometer sensor is in "preview" status at the time of writing, thus we decided to include its footprint on the board to exploit it when it will available.
 
