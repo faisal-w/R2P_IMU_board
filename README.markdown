@@ -24,6 +24,7 @@ The accelerometer and the gyroscope communicates with the microcontroller by SPI
 Modules are connected together by a single cable, that transports CAN signals as while as 5V power. Each module as two ports, enabling chain connections.
 
 A double connector footprint (RJ45 + pin header) is provided, so the user can choose which cabling fits better his needs:
+
 - RJ45 has been chosen as it provides shielded twisted wires for 1Mbit CAN networking in harsh environments and cables are easy to find.
 - pin header has been chosen to give also an space saving and simple connection when modules are closed placed and RJ45 jack/plug pairing space is a problem. This header also enables using the IMU module outside our framework, interfacing with it through a simple TTL UART interface.
 
