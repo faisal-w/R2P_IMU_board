@@ -30,6 +30,7 @@ A double connector footprint (RJ45 + pin header) is provided, so the user can ch
 
 The four status LEDs are placed under RJ45 plug light pipes entrance, so it is only needed to solder the preferred connector without any other layout changes.
 
+The left connector has the option to expose the TTL UART interface, instead of the CAN bus interface, by a solder jumper placed on the bottom of the board.
 
 ### Firmware
 
