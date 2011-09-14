@@ -7,6 +7,8 @@ The overall system should provide the devices and functionalities commonly used 
 
 ### Hardware
 
+![Alt text](https://github.com/openrobots-dev/IMU/raw/master/IMU%20rev1.0.png)
+
 The IMU module is run by a STM32 ARM Cortex-M3 microcontroller, that takes care of reading sensors data, filtering them to extract accurate pose and attitude measurements, and then publishing the needed data on a CAN bus network and, optionally, on a TTL UART interface.
 
 Inertial data in gathered from three sensors:
