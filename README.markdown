@@ -3,7 +3,7 @@ IMU MODULE
 
 This is an IMU module featuring a MEMS gyro, a MEMS accelerometer and an optional magnetometer sensor.
 The IMU module is supposed to work together with other smart modules, publishing data on CAN bus using a publish/subscriber QoS enabled middleware (under development).
-The overall system should provide the devices and functionalities commonly used in robot prototyping, speeding up the development process and reducing the engeenering time, leaving more time to research activities. The system is also supposed to enable students and amateurs to easily build robots without advanced hardware knowledge.
+The overall system should provide the devices and functionalities commonly used in robot prototyping, speeding up the development process and reducing the engineering time, leaving more time to research activities. The system is also supposed to enable students and amateurs to easily build robots without advanced hardware knowledge.
 
 ### Hardware
 
